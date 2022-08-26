@@ -1,0 +1,70 @@
+{
+    "categories": [
+        {
+            "title": "Food",
+            "subCategories": [
+                {
+                    "title": "Bread",
+                    "id": 1
+                },
+                {
+                    "title": "Yoghurt",
+                    "id": 2
+                },
+                {
+                    "title": "Seafood",
+                    "id": 3
+                },
+                {
+                    "title": "Vegetables",
+                    "id": 4
+                }
+            ],
+            "id": 1
+        },
+        {
+            "title": "Funiture",
+            "subCategories": [
+                {
+                    "title": "Sofaset",
+                    "id": 1
+                },
+                {
+                    "title": "Cabinet & TV Stands",
+                    "id": 2
+                },
+                {
+                    "title": "Bed, Matress & Pillows",
+                    "id": 3
+                },
+                {
+                    "title": "Ironboards",
+                    "id": 4
+                }
+            ],
+            "id": 2
+        },
+        {
+            "title": "Electronics",
+            "subCategories": [
+                {
+                    "title": "Fans & Heaters",
+                    "id": 1
+                },
+                {
+                    "title": "Frigdes & Freezers",
+                    "id": 2
+                },
+                {
+                    "title": "Blenders & Toasters",
+                    "id": 3
+                },
+                {
+                    "title": "Cookers",
+                    "id": 4
+                }
+            ],
+            "id": 3
+        }
+    ]
+}
