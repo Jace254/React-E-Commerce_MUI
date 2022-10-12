@@ -6,9 +6,9 @@ import {
     Routes
 } from 'react-router-dom';
 import Navbar from "./containers/Navbar/Navbar";
-import Home from "./pages/Home";
-import Checkout from "./pages/Checkout";
-import SubCategory from './pages/SubCategory';
+import Home from "./pages/Products/HomePage";
+import Checkout from "./pages/CheckoutPage";
+import SubCategory from './pages/Products/SubCategoryPage';
 
 
 const App = () => {

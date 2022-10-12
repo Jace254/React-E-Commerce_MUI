@@ -1,6 +1,6 @@
 import React from 'react';
 import { IconButton, Button} from "@mui/material";
-import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
+import EmailRoundedIcon from '@mui/icons-material/EmailOutlined';
 import {styled} from "@mui/material/styles";
 import Login from '../../components/Login';
 import Register from '../../components/Register';

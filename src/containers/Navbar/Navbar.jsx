@@ -1,19 +1,12 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { styled, alpha } from '@mui/material/styles';
-import MuiAppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
-import InputBase from '@mui/material/InputBase';
-import Badge from '@mui/material/Badge';
-import SearchIcon from '@mui/icons-material/Search';
-import PermIdentityOutlinedIcon from '@mui/icons-material/PermIdentityOutlined';
-import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
+import {AppBar as MuiAppBar,Toolbar,Box,IconButton,Typography,InputBase,Badge} from '@mui/material';
+import { Search as SearchIcon, ShoppingBagOutlined as ShoppingBagOutlinedIcon} from '@mui/icons-material'
 import TopNavigation from './Topnav';
 import Cart from '../Cart';
 import Categories from '../Categories';
+
 
 
 const cartWidth = 400;
@@ -165,17 +158,7 @@ export default function PrimarySearchAppBar() {
 
           <Box sx={{display: {xs: 'none', sm: 'block'}, flexGrow: 1}}/>
 
-          <Box sx={{display: {xs: 'none', sm: 'block'}, direction: 'row',justifyContent: 'spaced-evenly'}}>
-          <IconButton size="large" sx={{
-              background: "#ffe8e5",
-              ...(open && {display: "none"})
-            }} 
-            aria-label="open drawer" 
-            onClick={handleCartOpen}
-            >
-              <PermIdentityOutlinedIcon/>
-            </IconButton>
-
+          <Box sx={{display: {xs: 'none', sm: 'block'}}}>
             <IconButton size="large" sx={{
               background: "#ffe8e5",
               ...(open && {display: "none"})
@@ -183,11 +166,9 @@ export default function PrimarySearchAppBar() {
             aria-label="open drawer" 
             onClick={handleCartOpen}
             >
-              
               <Badge badgeContent={4} color="error">
                 <ShoppingBagOutlinedIcon />
               </Badge>
-
             </IconButton>
           </Box>
         </Toolbar>

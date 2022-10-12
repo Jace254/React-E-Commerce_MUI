@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
+import {Card,CardContent} from '@mui/material/Card';
 
 export default function CartCard() {
   return (
-    <div>CartCard</div>
+    <div>
+      Cart Card
+    </div>
   )
 }
